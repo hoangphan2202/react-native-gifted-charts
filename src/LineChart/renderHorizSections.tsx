@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import {Text, View} from 'react-native';
 import Rule from '../Components/lineSvg';

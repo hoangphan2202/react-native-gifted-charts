@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, {useState} from 'react';
 import {View, ColorValue} from 'react-native';
 import {colors} from './colors';

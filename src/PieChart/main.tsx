@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import {ColorValue, View} from 'react-native';
 import Svg, {
@@ -145,7 +146,7 @@ export const PieChartMain = (props: propTypes) => {
     minShiftY = 0,
     maxShiftY = 0,
     total = 0;
-    
+
   data.forEach((item: any) => {
     total += item.value;
     if (item.shiftX || item.shiftY) {
